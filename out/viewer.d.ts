@@ -6,19 +6,20 @@ export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembl
 export interface InitOutput {
   readonly memory: WebAssembly.Memory;
   readonly main: (a: number, b: number) => number;
+  readonly __externref_table_alloc: () => number;
+  readonly __wbindgen_export_1: WebAssembly.Table;
+  readonly __wbindgen_exn_store: (a: number) => void;
   readonly __wbindgen_malloc: (a: number, b: number) => number;
   readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
-  readonly __wbindgen_export_2: WebAssembly.Table;
-  readonly __wbindgen_export_3: WebAssembly.Table;
-  readonly closure5749_externref_shim: (a: number, b: number, c: number) => void;
-  readonly closure34058_externref_shim: (a: number, b: number, c: number) => void;
-  readonly closure34078_externref_shim: (a: number, b: number, c: number) => void;
-  readonly closure34362_externref_shim: (a: number, b: number, c: number) => void;
-  readonly _dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hc44e7050e4ff3bea: (a: number, b: number) => void;
-  readonly closure34370_externref_shim: (a: number, b: number, c: number, d: number) => void;
   readonly __wbindgen_free: (a: number, b: number, c: number) => void;
-  readonly __wbindgen_exn_store: (a: number) => void;
-  readonly __externref_table_alloc: () => number;
+  readonly __wbindgen_export_6: WebAssembly.Table;
+  readonly closure7332_externref_shim: (a: number, b: number, c: any) => void;
+  readonly closure48006_externref_shim: (a: number, b: number, c: any) => void;
+  readonly closure48027_externref_shim: (a: number, b: number, c: any) => void;
+  readonly closure48236_externref_shim: (a: number, b: number, c: any, d: any) => void;
+  readonly closure48240_externref_shim: (a: number, b: number, c: any) => void;
+  readonly _dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hc3edb0b92f8ff861: (a: number, b: number) => void;
+  readonly _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hf04130fd3fc763f9: (a: number, b: number, c: number) => void;
   readonly __wbindgen_start: () => void;
 }
 
